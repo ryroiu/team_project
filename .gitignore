@@ -1,1 +1,7 @@
 .DS_Store
+
+# Week 6 validation builds are temporary course artifacts.
+/validation/
+
+# Local working files are not deliverables.
+/work/

@@ -1,9 +1,51 @@
+# Music Club Equipment Tracker
+
+A System Design course project for an **imaginary Music Club at Indiana University**. Members check shared equipment availability; an equipment coordinator records checkouts and returns. This is a fictional coursework scenario, not an official IU club service.
+
+**Current milestone:** Week 1 documents prepared; collaborator access remains unverified. The Business Case has a sponsor Go decision; the Constitution is drafted for team review. See the [Week 1 status and remaining setup](docs/WEEKLY-STATUS.md).
+
+## Team
+
+| Person | Course role | Owns |
+|--------|-------------|------|
+| Ryan Roberts | Product Owner; coursework sponsor | Business Case, Specification |
+| Connor Nease | Architecture Lead | Plan, Data & API Design |
+| Kristiana Lulgjuraj | Delivery Lead | Style Guide, Tasks, Weekly Status |
+
+Ryan supplied these role assignments on 2026-10-22. Team GitHub usernames and the instructor username have not been supplied; invitation and acceptance status are unverified.
+
+## Project documents
+
+| Document | Current status |
+|----------|----------------|
+| [Business Case](docs/business-case.md) | Week 1 draft v0.1; sponsor Go recorded 2026-10-22 |
+| [Specification](docs/specification.md) | Week 1 Constitution draft; later sections due Weeks 2–3 |
+| [Style Guide](docs/style-guide.md) | Unfilled course template; due Week 2 |
+| [Data & API Design](docs/data-api-design.md) | Unfilled course template; due Weeks 3–4 |
+| [Plan](docs/plan.md) | Unfilled course template; due Weeks 3–4 |
+| [Tasks](docs/tasks.md) | Unfilled course template; due Week 5 |
+| [Weekly Status](docs/WEEKLY-STATUS.md) | Week 1 entry and submission link |
+
+**Week 1 submission:** [docs/WEEKLY-STATUS.md on GitHub](https://github.com/ryroiu/team_project/blob/main/docs/WEEKLY-STATUS.md). The course requires submitting this link in the class submission system.
+
+**Scope direction:** one club; individually tracked equipment; member and equipment-coordinator roles; availability, checkouts, current loans, and returns. Reservations, payments, fines, messaging, barcode scanning, multiple clubs, and external integrations are outside scope. Principles and open decisions are in the Specification.
+
+**Next session:** read the newest Weekly Status entry and Specification Section 5, resolve remaining Week 1 setup, then begin Week 2 evidence conversations, scenarios, requirements, and the Style Guide. Use [AGENTS.md](AGENTS.md) for continuing project guidance.
+
+## Course framework and starter files
+
+The schedule below comes from the [official C450 framework](https://github.com/jlyst/C450-team-project-framework). Missing document templates, all root document guides/examples, `CLAUDE.md`, VS Code's course-instruction setting, and the collection and simulated-login course skills were restored from [framework revision a81184d](https://github.com/jlyst/C450-team-project-framework/tree/a81184d7df7064789c74fc53035be11439231af6) without modifying their contents. Other course skills can be imported if a later authorized task needs them.
+
+The existing root app and CSV are still the generic legacy starter. They have not been implemented as the Equipment Tracker. The canonical Specification is now directly in `docs/`; the old path links to it. Future-week templates remain unfilled on purpose.
+
+---
+
 # Team Project Schedule, Rubrics & Presentation
 
 **What this project is:** In this System Design project, your team designs a small product through a set of documents — the business case, specification, style guide, data and API design, plan, and tasks. **The documents are what you're graded on.** You'll build the product twice with an AI agent, one task at a time — first to find gaps in your documents, then to show your design works — but the builds exist to test your design, not to be production software. Your documents are also the handoff to System Implementation, where you can continue the project with a real backend.
 
 #### Visual Overview
-![](project-overview.png)
+[View the course project overview](https://github.com/jlyst/C450-team-project-framework/blob/a81184d7df7064789c74fc53035be11439231af6/project-overview.png)
 
 ## Roles
 
